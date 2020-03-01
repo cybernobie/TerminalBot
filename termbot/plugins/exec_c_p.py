@@ -22,7 +22,7 @@ import time
 async def execution_cmd_t(client, message):
     status_message = await message.reply_text(PROCESS_RUNNING, quote=True)
 
-        cmd = message.text.split(" ", maxsplit=1)[1]
+    cmd = message.text.split(" ", maxsplit=1)[1]
 
     PROCESS_RUN_TIME = 100
 
